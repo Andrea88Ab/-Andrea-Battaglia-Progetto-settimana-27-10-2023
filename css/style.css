@@ -1,0 +1,148 @@
+body{
+   
+    font-size:1.2rem ;
+    font-family: 'Open Sans', sans-serif;
+    line-height:1.65em ;
+    
+}
+
+
+
+.logo{
+    background-color: black;
+    padding: 31px;
+    text-align: center;
+
+}
+
+
+nav{
+    background-image:url(/images/banner.jpg)  ;
+    background-position: top;
+    background-size: contain;
+    text-align: center;
+    padding: 31px;
+
+}
+nav h1{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1,5em;
+    padding: 15px;
+    font-size: 28px;   
+}
+
+ p{
+    font-size: 16px;
+}
+
+button{
+    background-color: #f04c2f;
+    border-radius:4px;
+	
+	/*! display:inline-block; */
+	cursor:pointer;
+    /*! font-family:Arial; */
+	font-size:15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 167px;
+    height: 47px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+article{
+    text-align: center;
+}
+
+h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+.picture1 img{
+    position: relative; width: 350px; height: 350px; overflow: hidden; border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+.sect-autore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 244px;
+    margin-top: 40px;
+}
+
+.autore{
+    
+    color: white;
+    margin-top: 10px;
+    background-color: #d3402b;
+    width: 450px;
+   
+    height: 145px;
+}
+.sect-margin{
+    margin-top: 45px;
+    border: solid #dee1e3;
+    width: 350px;
+    height: 409px;
+    border-radius: 6px;
+}
+ .section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+   
+ }
+
+
+
+h2{ font-weight: bold;
+    margin-top: 44px;
+
+}
+
+
+.autore em{
+    font-style: italic;
+    font-size: 13px;
+}
+ footer{
+    
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ hr{
+    color: white;
+    width: 196px;
+ }
+
+ a{
+    color: white;
+ }
+ address{
+    background-color: #25a2c3;
+    width: 450px;
+ }
+ 
+ 
